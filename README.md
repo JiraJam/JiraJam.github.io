@@ -1292,7 +1292,3 @@ window.addEventListener(
 );
 
 </script>
-
-</body>
-</html>
-```
