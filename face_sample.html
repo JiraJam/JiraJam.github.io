@@ -14,6 +14,7 @@
   <a-assets>
     <a-asset-item id="glassesModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/examples/face-tracking/assets/glasses/scene.gltf"></a-asset-item>
     <a-asset-item id="headModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/examples/face-tracking/assets/sparkar/headOccluder.glb"></a-asset-item>
+    <a-asset-item id="CatHead" src="http://jirajam.github.io/cat_in_flowers.glb"></a-asset-item>
   </a-assets>
 
 
@@ -40,7 +41,7 @@
     <a-box position="0 0 0" scale="0.01 0.01 0.01" color="lightblue"></a-box>
   </a-entity>
   <a-entity mindar-face-target="anchorIndex: 10">
-    <a-box position="0 0 0" scale="0.5 0.5 0.5" color="black"></a-box>
+    <a-gltf-model rotation="0 0 0" position="0 0 0" scale="0.008 0.008 0.008"src="#CatHead"></a-gltf-model>
   </a-entity>
 
 
